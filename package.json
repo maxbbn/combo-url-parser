@@ -1,0 +1,18 @@
+{
+  "author": "maxbbn <qipbbn@gmail.com> (maxbbn.com)",
+  "name": "combo-url-parser",
+  "description": "A util to parser comboed url",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxbbn/combo-url-parser.git"
+  },
+  "scripts": {
+    "test": "jasmine-node ."
+  },
+  "engines": {
+    "node": "~0.6.7"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

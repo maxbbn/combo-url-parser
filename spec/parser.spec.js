@@ -1,4 +1,4 @@
-var parser = require('../lib/parser.js');
+var parser = require('..');
 
 describe('combo-parser', function () {
     it('single path', function () {
