@@ -6,9 +6,8 @@ npm install combo-url-parser
 ## useage
 ````javascript
 comboParser = require('combo-url-parser');
-
 comboParser(url);
-
+````
 ## exambles
 ````
 '/foo.js' > ['/foo.js]
@@ -18,3 +17,4 @@ comboParser(url);
 '/hello??foo.js,bar.js' > ['/hello/foo.js','/hello/bar.js']
 
 '/hello??foo.js,d/bar.js' > ['/hello/foo.js','/hello/d/bar.js']
+````
