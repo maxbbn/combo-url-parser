@@ -1,7 +1,9 @@
 util to parse comboed url;
 
 ## install
+````javascript
 npm install combo-url-parser
+````
 
 ## useage
 ````javascript
