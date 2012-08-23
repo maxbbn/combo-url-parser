@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/maxbbn/combo-url-parser.png)](http://travis-ci.org/maxbbn/combo-url-parser)
 util to parse comboed url;
 
 ## install
