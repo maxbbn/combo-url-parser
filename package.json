@@ -11,7 +11,7 @@
     "test": "jasmine-node ."
   },
   "engines": {
-    "node": "~0.6.7"
+    "node": ">=0.6.7"
   },
   "dependencies": {},
   "devDependencies": {}
