@@ -1,2 +1,3 @@
-module.exports = require('./lib/parser.js');
-exports.middleware = require('./lib/middleware');
+var parser = module.exports = require('./lib/parser.js');
+
+parser.middleware = require('./lib/middleware');
