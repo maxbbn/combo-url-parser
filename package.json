@@ -2,7 +2,7 @@
   "author": "maxbbn <qipbbn@gmail.com> (maxbbn.com)",
   "name": "combo-url-parser",
   "description": "A util to parser comboed url",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/maxbbn/combo-url-parser.git"
