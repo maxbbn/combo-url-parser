@@ -21,3 +21,10 @@ comboParser(url);
 
 '/hello??foo.js,d/bar.js' > ['/hello/foo.js','/hello/d/bar.js']
 ````
+
+## ChangeLog
+
+### 0.1.1
+
+- 修复单个 combo 无法访问的问题
+- 如果 URL 中不符合parser规范， 返回 null
