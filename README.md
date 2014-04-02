@@ -24,6 +24,9 @@ comboParser(url);
 
 ## ChangeLog
 
+### 0.1.2
+- 添加 content-type Header
+
 ### 0.1.1
 
 - 修复单个 combo 无法访问的问题
