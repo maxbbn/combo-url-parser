@@ -24,7 +24,13 @@ comboParser(url);
 
 ## ChangeLog
 
+### 0.1.3
+- 中间件，去掉配置，现在不需要配置 port
+- 优化逻辑，如果一个文件不存在，就返回 404， 方便问题定件
+- 使用第一个请求的 mime-type
+
 ### 0.1.2
+
 - 添加 content-type Header
 
 ### 0.1.1
