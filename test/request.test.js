@@ -27,8 +27,8 @@ describe('request', function () {
         });
 
         it('body has content', function () {
-            expect(reqBody).to.be.ok();
-            expect(reqBody).to.be.a('string');
+            expect(reqBody).to.be.a('string')
+                .and.to.have.length(413)
         });
     });
 
@@ -56,12 +56,12 @@ describe('request', function () {
 
         });
         it('body has content', function () {
-            expect(reqBody).to.be.ok();
-            expect(reqBody).to.be.a('string');
+            expect(reqBody).to.be.a('string')
+                .and.to.have.length(413);
         });
     });
 
-    describe.only('g.tbcdn.cn', function () {
+    describe('g.tbcdn.cn', function () {
         var reqBody;
         before(function (done) {
             request({
@@ -87,12 +87,8 @@ describe('request', function () {
         });
 
         it('body has content', function () {
-            expect(reqBody).to.be.ok();
-            expect(reqBody).to.be.a('string');
-            console.log(reqBody)
+            expect(reqBody).to.be.a('string')
+                .and.to.have.length(199420);
         });
     });
 });
-
-
-
