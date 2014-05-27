@@ -60,6 +60,38 @@ describe('request', function () {
             expect(reqBody).to.be.a('string');
         });
     });
+
+    describe.only('g.tbcdn.cn', function () {
+        var reqBody;
+        before(function (done) {
+            request({
+                uri: {
+                    hostname: '10.125.202.112',
+                    port: '',
+                    pathname: '/kissy/k/1.4.1/seed.js',
+                    protocol: 'http:'
+                },
+                headers: {
+                    host: 't6l-tb-xcake-0-0-2.cdef.taobao.net',
+                    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.2 Safari/537.36'
+                }
+            }, function(err, req, body){
+                if (err) {
+                    done(err);
+                    return;
+                }
+                reqBody = body;
+                done();
+            });
+
+        });
+
+        it('body has content', function () {
+            expect(reqBody).to.be.ok();
+            expect(reqBody).to.be.a('string');
+            console.log(reqBody)
+        });
+    });
 });
 
 
