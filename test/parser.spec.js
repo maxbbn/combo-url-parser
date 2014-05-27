@@ -3,13 +3,13 @@ var expect = require("expect.js");
 
 describe('combo-parser', function () {
     it('should parse single path', function () {
-        expect(parser('/url/without/combo.js?t=xxx'))
-            .to.eql(['/url/without/combo.js?t=xxx']);
+        expect(parser('/url/without/combo.js'))
+            .to.be(undefined);
     });
 
     it('should parse single path with query', function () {
         expect(parser('/url/without/combo.js?t=000000.js'))
-            .to.eql(['/url/without/combo.js?t=000000.js']);
+            .to.be(undefined);
 
     });
 

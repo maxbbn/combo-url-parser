@@ -18,6 +18,7 @@
     "async": "~0.7.0"
   },
   "devDependencies": {
+    "expect.js": "^0.3.1",
     "mocha": "~1.18.0"
   }
 }
